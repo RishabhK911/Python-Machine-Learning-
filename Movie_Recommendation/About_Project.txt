@@ -1,0 +1,19 @@
+Movie Lens is a dataset of 100k ratings consisting of 943 unique users who gave ratings and 1682 different movie .
+
+The dataset can be downloaded at
+
+https://grouplens.org/datasets/movielens/
+
+In this Prject we will use python based Lightfm library which enables to build recommandation systems in an easy and efficient way.
+
+More about Lighfm >>  https://github.com/lyst/lightfm
+
+Basically there are two types of recommendation models : Content based & Collabrative based .
+Content based models helps in fiding itmes similar to the ones already bought .
+Collabrative based are of two types user-user type and item-item based .
+
+We will be using LightFm Hybrid based model which is the combination of both , we will perform two tasks:
+
+1. Recommand user a movie based on his/her past likings .
+2. Recommand a list of users that might like a particula rmovie based on user features.
+
